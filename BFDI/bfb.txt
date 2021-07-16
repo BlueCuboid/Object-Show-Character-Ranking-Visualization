@@ -1,0 +1,1219 @@
+//EXPLANATION
+//All contestants, including new ones who join mid-season, start with a default rating of 1000.
+//In each challenge, the contestants are ranked based on how well they do relative to each other by being given scores.
+//The exact values of each contestant's points do not matter, only their relative order does, ex. 0 vs 1 is the same as 10 vs 100.
+//Each contestant's rating is then updated according to a generalized Elo rating system for multiplayer games.
+
+//Code:
+//comment="//..."
+//challenge="#[name/description of challenge]"
+//eliminated/removed from competition="e-[contestant]"
+//rejoined="!e-[contestant]"
+//temporarily dead/disqualified/absent="d-[contestant]"
+//revived/back in contest="!d-[contestant]"
+
+ep1
+#bring baskets to X
+8.5
+Pen
+//blew basket
+8
+Liy
+Pillow
+Tree
+Pie
+Remote
+Bottle
+Black Hole
+
+7.5
+Balloony
+//used his air to move basket
+7
+Leafy
+David
+Rocky
+Nickel
+Roboty
+Cloudy
+Woody
+
+6.5
+Puffball
+//moved basket
+6
+Bell
+Marker
+Fries
+Stapy
+Eraser
+Yellow Face
+Foldy
+
+5.5
+Bracelety
+//worked together to bring basket
+Spongy
+Barf Bag
+Naily
+5
+Gelatin
+Donut
+Firey Jr.
+Bomby
+
+4.5
+Clock
+//launched basket
+4
+Firey
+Pin
+Loser
+Eggy
+Needle
+Coiny
+Cake
+
+3.5
+Golf Ball
+//built trebuchet that launched basket
+3
+Blocky
+Grassy
+Tennis Ball
+8-Ball
+Basketball
+Robot Flower
+TV
+
+2.5
+Saw
+//carried basket
+2
+Lollipop
+Taco
+Book
+Teardrop
+Gaty
+Dora
+Ice Cube
+
+1
+Flower
+Fanny
+Snowball
+Pencil
+Match
+Bubble
+Lightning
+Ruby
+
+ep2
+e-Pencil
+#release contestants from jawbreakers
+8.5
+Dora
+//cracked jawbreaker
+8
+Lollipop
+Taco
+Book
+Teardrop
+Gaty
+Saw
+Ice Cube
+
+7
+Flower
+Fanny
+Snowball
+Match
+Bubble
+Lightning
+Ruby
+
+6.5
+Stapy
+//cracked jawbreaker
+6
+Bell
+Marker
+Fries
+Eraser
+Yellow Face
+Foldy
+Puffball
+
+5
+Bracelety
+Spongy
+Barf Bag
+Naily
+Gelatin
+Donut
+Firey Jr.
+Bomby
+
+4.5
+Black Hole
+//cut jawbreakers
+4
+Liy
+Pillow
+Tree
+Pie
+Remote
+Bottle
+Pen
+
+3.5
+8-Ball
+//cracked jawbreaker
+3
+Golf Ball
+Blocky
+Grassy
+Tennis Ball
+Basketball
+Robot Flower
+TV
+
+2.5
+Loser
+//licked jawbreaker
+2
+Firey
+Pin
+Eggy
+Needle
+Coiny
+Cake
+Clock
+
+1
+Balloony
+Leafy
+David
+Rocky
+Nickel
+Roboty
+Cloudy
+Woody
+
+ep3
+e-Leafy
+
+#swing on swingset 50 times
+//it is ambiguous in what order the first six teams below completed the challenge, so they are given equal status
+8.5
+8-Ball
+Golf Ball
+
+Puffball
+
+Cloudy
+
+Black Hole
+
+Fanny
+
+Clock
+//the four contestants above each were the main teammates rotating the swings or commanding the team to do so
+
+8
+Blocky
+Grassy
+Tennis Ball
+Basketball
+Robot Flower
+TV
+
+Bell
+Marker
+Fries
+Eraser
+Yellow Face
+Foldy
+Stapy
+
+Balloony
+David
+Rocky
+Nickel
+Roboty
+Woody
+
+Liy
+Pillow
+Tree
+Pie
+Remote
+Bottle
+Pen
+
+Flower
+Snowball
+Match
+Bubble
+Lightning
+Ruby
+
+Firey
+Pin
+Eggy
+Needle
+Coiny
+Cake
+Loser
+
+2
+Dora
+Lollipop
+Taco
+Book
+Teardrop
+Gaty
+Saw
+Ice Cube
+
+1
+Bracelety
+Spongy
+Barf Bag
+Naily
+Gelatin
+Donut
+Firey Jr.
+Bomby
+
+ep4
+e-Bracelety
+#make drawing/sculpture of Four
+8
+Puffball
+Bell
+Marker
+Fries
+Eraser
+Yellow Face
+Foldy
+Stapy
+
+7.5
+Teardrop
+7
+Dora
+Lollipop
+Taco
+Book
+Gaty
+Saw
+Ice Cube
+
+6
+Spongy
+Barf Bag
+Naily
+Gelatin
+Donut
+Firey Jr.
+Bomby
+
+5.5
+Woody
+Rocky
+//made cake
+Nickel
+//added sprinkles
+5
+Balloony
+David
+Cloudy
+Roboty
+
+4
+Fanny
+Flower
+Snowball
+Match
+Bubble
+Lightning
+Ruby
+
+3
+8-Ball
+Golf Ball
+Blocky
+Grassy
+Tennis Ball
+Basketball
+Robot Flower
+TV
+
+2
+Clock
+Firey
+Pin
+Eggy
+Needle
+Coiny
+Cake
+Loser
+
+1.5
+Pen
+//wrote "4"
+Black Hole
+//slowed down time
+Bottle
+//captured paper that Pen wrote on
+1
+Liy
+Pillow
+Tree
+Pie
+Remote
+
+ep5
+e-Liy
+#fly paper plane for as long as possible
+
+d-Cloudy,Puffball,Black Hole,Lightning
+//flyers are not allowed
+
+8
+//all these teams are judged to have done equally well
+Teardrop
+Dora
+Lollipop
+Taco
+Book
+Gaty
+Saw
+Ice Cube
+
+Spongy
+Barf Bag
+Naily
+Gelatin
+Donut
+Firey Jr.
+Bomby
+
+Fanny
+Flower
+Snowball
+Match
+Bubble
+Ruby
+
+8-Ball
+Golf Ball
+Blocky
+Grassy
+Tennis Ball
+Basketball
+Robot Flower
+TV
+
+Clock
+Firey
+Pin
+Eggy
+Needle
+Coiny
+Cake
+Loser
+
+Pen
+Bottle
+Pillow
+Tree
+Pie
+Remote
+
+2
+//almost lost
+Bell
+Marker
+Fries
+Eraser
+Yellow Face
+Foldy
+Stapy
+//Stapy almost made the team lose, then saved the team
+
+1
+Woody
+Rocky
+Nickel
+Balloony
+David
+Roboty
+
+!d-Cloudy,Puffball,Black Hole,Lightning
+
+ep6
+e-Roboty
+#don't get the twinkle
+//teams are ordered by the latest time they contracted the twinkle
+//the later the latest time, the worse that team is judged
+8
+Spongy
+Barf Bag
+Naily
+Gelatin
+Donut
+Firey Jr.
+Bomby
+
+7
+Woody
+Rocky
+Nickel
+Balloony
+David
+Cloudy
+
+6
+Fanny
+Flower
+Snowball
+Match
+Bubble
+Lightning
+Ruby
+
+5
+Pen
+Black Hole
+Bottle
+Pillow
+Tree
+Pie
+Remote
+
+4
+//it is ambiguous which one of these two teams contracted the twinkle the latest
+Taco
+Teardrop
+Dora
+Lollipop
+Book
+Gaty
+Saw
+Ice Cube
+
+8-Ball
+Golf Ball
+Blocky
+Grassy
+Tennis Ball
+Basketball
+Robot Flower
+TV
+
+2
+Puffball
+Bell
+Marker
+Fries
+Eraser
+Yellow Face
+Foldy
+Stapy
+
+1
+Clock
+Firey
+Pin
+Eggy
+Needle
+Coiny
+Cake
+Loser
+
+ep7
+//Donut becomes new host
+e-Loser
+d-Taco
+//killed by Dnout throwing the jawbreaker onto her
+#prevent ball from falling into team's crater
+8
+//pushed ball into losing team's crater
+Pen
+Black Hole
+Bottle
+Pillow
+Tree
+Pie
+Remote
+
+7
+//these teams are judged to have done equally well
+Spongy
+Barf Bag
+Naily
+Gelatin
+Firey Jr.
+Bomby
+
+Woody
+Rocky
+Nickel
+David
+Cloudy
+Balloony
+
+Fanny
+Flower
+Snowball
+Match
+Bubble
+Lightning
+Ruby
+
+Teardrop
+Dora
+Lollipop
+Book
+Gaty
+Saw
+Ice Cube
+
+Puffball
+Bell
+Marker
+Fries
+Eraser
+Yellow Face
+Stapy
+Foldy
+
+Clock
+Firey
+Pin
+Eggy
+Needle
+Coiny
+Cake
+
+1
+8-Ball
+Golf Ball
+Blocky
+Grassy
+Tennis Ball
+Basketball
+Robot Flower
+TV
+
+d-Balloony,Foldy,Bell,Naily,Remote
+//died during challenge in ep7
+
+ep8
+e-8-Ball
+#quiz show
+//each team had one representative to answer the questions
+//here, each representative is given a bonus, except for the losing team)
+8.5
+Pen
+8
+Black Hole
+Bottle
+Pillow
+Tree
+Pie
+
+7.5
+Cloudy
+7
+Woody
+Rocky
+Nickel
+David
+
+6.5
+Cake
+6
+Clock
+Firey
+Pin
+Eggy
+Needle
+Coiny
+
+5.5
+Barf Bag
+5
+Spongy
+Gelatin
+Firey Jr.
+Bomby
+
+4.5
+Golf Ball
+4
+Blocky
+Grassy
+Tennis Ball
+Basketball
+Robot Flower
+TV
+
+3.5
+Saw
+3
+Teardrop
+Dora
+Lollipop
+Book
+Gaty
+Ice Cube
+
+2.5
+Bubble
+2
+Fanny
+Flower
+Snowball
+Match
+Lightning
+Ruby
+
+1
+Puffball
+Marker
+Fries
+Eraser
+Yellow Face
+0.5
+//cheated
+Stapy
+
+ep9
+//X becomes new host
+e-Stapy
+d-Saw
+//it seems like Saw leaves temporarily at this point
+#throw balls into propelled basket to weight it down to buzzer
+8.5
+Blocky
+//had idea to use T.B. and B.B to weight down basket
+Tennis Ball
+Basketball
+8
+Golf Ball
+Grassy
+Robot Flower
+TV
+
+7.5
+Marker
+//threw balls into basket
+7
+Puffball
+Fries
+Eraser
+Yellow Face
+
+6.5
+Snowball
+//broke basket's propeller, making it fall
+6
+Bubble
+Fanny
+Flower
+Match
+Lightning
+Ruby
+
+5.5
+Bomby
+//threw balls
+5
+Barf Bag
+Spongy
+Gelatin
+Firey Jr.
+Donut
+
+4
+Cake
+Clock
+Firey
+Pin
+Eggy
+Needle
+Coiny
+
+3
+Teardrop
+Dora
+Lollipop
+Book
+Gaty
+Ice Cube
+
+2
+Pen
+Black Hole
+Bottle
+Pillow
+Tree
+Pie
+
+1
+Cloudy
+Woody
+Rocky
+Nickel
+David
+
+ep10
+e-David
+//Four becomes host again
+!d-Balloony,Bell,Foldy,Remote,Naily,Taco
+d-Clock
+//dies off-screen
+
+ep11
+!e-Leafy
+#climb stairs to press button
+//each team can only send one representative to compete
+// and is not supposed to assist them
+
+8
+Needle
+7
+Dora
+6
+Foldy
+5
+Balloony
+4
+Bomby
+3
+Tennis Ball
+2
+Pie
+Black Hole
+//assisted Pie
+1
+Flower
+
+ep12
+e-Match
+#find the imposter
+8
+Pen
+Black Hole
+Bottle
+Pillow
+Pie
+Remote
+//Tree was imposter for someone else
+
+7
+Marker
+Fries
+Eraser
+Yellow Face
+Foldy
+Bell
+//Puffball was imposter for someone else
+
+6
+Nickel
+Balloony
+Cloudy
+Woody
+//Rocky was imposter for someone else
+
+5
+Blocky
+Tennis Ball
+Golf Ball
+Grassy
+Robot Flower
+TV
+//Basketball was imposter for someone else
+
+4
+Gaty
+Ice Cube
+Book
+Dora
+Lollipop
+Teardrop
+//Taco was imposter for someone else
+
+3
+Cake
+Firey
+Eggy
+Needle
+Coiny
+Leafy
+//Pin was imposter for someone else
+
+2
+Snowball
+Bubble
+Fanny
+Flower
+Ruby
+//Lightning was imposter for someone else
+
+1
+Bomby
+Barf Bag
+Gelatin
+Firey Jr.
+Donut
+Naily
+//Spongy was imposter for someone else
+
+d-Balloony,Bubble,Bottle
+
+ep13
+!d-Saw
+//Saw comes back from Scent Cleanse
+e-Firey Jr.
+d-Pillow
+//eaten by Four
+#find X's emeralds (underground) before X does
+!d-Balloony,Bubble,Bottle
+
+ep14
+#challenge continued from ep13
+8.5
+Yellow Face
+//supplied fake emeralds that got accepted by Four
+8
+Marker
+Fries
+Eraser
+Foldy
+Bell
+Puffball
+
+7.5
+Golf Ball
+//her rocket+satellite dish were the most important tools
+7
+Blocky
+Tennis Ball
+Grassy
+Robot Flower
+TV
+Basketball
+
+6
+Pen
+Black Hole
+Bottle
+Pie
+Tree
+Remote
+
+5
+Bomby
+Barf Bag
+Spongy
+Gelatin
+Donut
+Naily
+
+4
+Cake
+Firey
+Eggy
+Needle
+Coiny
+Leafy
+Pin
+
+3.5
+Ruby
+//her idea of using breath to blow away objects and lava proved crucial
+3
+Snowball
+Bubble
+Fanny
+Flower
+Lightning
+Ice Cube
+
+2.5
+Woody
+//was the only one on the team to find an emerald
+2
+Nickel
+Balloony
+Rocky
+Cloudy
+
+1
+Gaty
+//Ice Cube unofficially joined another team
+Book
+Dora
+Lollipop
+Teardrop
+Taco
+Saw
+
+d-Donut
+//died saving Spongy
+d-Ruby,Fanny,Barf Bag,Snowball,Lightning,Book,Golf Ball,Cake
+//died from lava
+
+d-Yellow Face,Fries,Marker,Eraser
+d-Basketball,Golf Ball,TV,Grassy
+d-Eggy
+d-Fanny,Snowball,Gelatin,Ruby,Cloudy,Donut,Rocky,Balloony,Bomby,Barf Bag,Lightning,Nickel,Bubble
+d-Pin
+//implicitly died from lava
+
+ep15
+d-Gelatin
+//died from lava
+!d-Book
+e-Dora
+#get all alive team members to travel to Four's location
+//dying is not allowed
+!d-Pillow
+
+8
+Gaty
+Ice Cube
+Book
+Lollipop
+Teardrop
+Taco
+Saw
+
+7
+Pen
+Black Hole
+Bottle
+Pie
+Tree
+Pillow
+Remote
+
+6
+Foldy
+Bell
+Puffball
+
+5
+Woody
+
+4
+Tennis Ball
+Blocky
+Robot Flower
+
+3
+Firey
+Needle
+Coiny
+Leafy
+
+2
+Flower
+
+1
+Spongy
+Naily
+
+!d-Yellow Face,Fries,Marker,Eraser
+!d-Basketball,Golf Ball,TV,Grassy
+d-Gaty
+//killed by lava coming out of Four's eye
+!d-Eggy
+
+ep16
+!d-Basketball,Fanny,Snowball,Gelatin,Ruby,Cloudy,Donut,Rocky,Balloony,Bomby,Barf Bag,Lightning,Nickel,Bubble,Gaty
+!e-Loser
+//many characters leave BFB to join TPOT
+e-Pin,Bell,Golf Ball,Book,Basketball,Eraser,Cloudy,Gaty,Lightning,TV,Coiny,Pen,Grassy,Needle,Eggy,Basketball,Barf Bag,Ice Cube,Snowball,Pillow,Tennis Ball,Remote,Rocky,Foldy,Robot Flower,Tree,Marker,Saw,Nickel,Bomby,Naily,Cake,Puffball,Pie,Fanny,Clock,Fries,Donut,Yellow Face,Black Hole,Bottle
+
+ep17
+//split into two teams
+#bring X back to Four
+2.5
+Loser
+//used the strategy "X Marks the Spot"
+2
+Firey,Woody,Blocky,Flower,Taco,Spongy
+
+1
+Ruby,Leafy,Gelatin,Lollipop,Bubble,Teardrop,Balloony
+
+ep18
+d-Firey
+//died from liquid
+d-Lollipop
+//died from Four patting her too much
+d-Bubble
+//popped by Gelatin
+e-Balloony
+!d-Lollipop,Bubble
+!d-Firey
+#protect own team's tower and destroy other team's tower
+2
+Ruby,Leafy,Gelatin,Lollipop,Bubble,Teardrop
+
+1
+Loser,Firey,Woody,Blocky,Flower,Taco,Spongy
+//Flower caused her team's tower to collapse, but she was pushed off the top of the tower by Taco, so she gets no penalty
+
+ep19
+e-Spongy
+#improve the sun to help X's aloe vera grow
+d-Woody
+//burned to death
+
+2
+Loser,Firey,Blocky,Flower,Taco
+
+1
+Ruby,Leafy,Gelatin,Lollipop,Bubble,Teardrop
+
+ep20
+e-Ruby
+!d-Woody
+#stop X from burning
+2.5
+Leafy
+//poured ice on X, stopping the burning and making her team win
+2
+Gelatin,Lollipop,Bubble,Teardrop
+
+1
+Loser,Firey,Woody,Blocky,Flower,Taco
+
+d-Firey
+//pushed into the Sun
+
+ep21
+e-Loser
+!d-Firey
+#buy gifts that satisfy the receivers
+2
+Leafy,Gelatin,Lollipop,Bubble,Teardrop
+
+1
+Firey,Woody,Blocky,Flower,Taco
+
+ep22
+e-Taco
+#determine who stole Donut's diary
+2
+Firey,Woody,Blocky,Flower
+
+1
+Gelatin,Lollipop,Bubble,Teardrop
+0.5
+Leafy
+//intentionally made team lose the challenge
+//after a difficult talk with Firey
+
+ep23
+e-Bubble
+#save Four from prison
+
+2.5
+Teardrop
+//devised plan to cut Four's jail cell
+//transported Gelatin to Four's jail cell via death & recovery
+2
+Gelatin,Lollipop,Leafy
+
+1
+Firey,Woody,Blocky,Flower
+
+ep24
+e-Blocky
+//no more teams
+#throw party for Four
+0
+Gelatin
+2
+Firey
+0
+Leafy
+1
+Woody
+5
+Flower
+1
+Teardrop
+10
+Lollipop
+
+ep25
+d-Leafy,Firey
+//pulverized (probably as Woody's prank)
+!d-Leafy,Firey
+e-Firey
+#return a non-cursed totem to Four
+0
+Gelatin
+Leafy
+Woody
+Lollipop
+1
+Teardrop
+0.5
+Flower
+//returned a rock instead of a totem, but at least the rock is not cursed
+
+ep26
+e-Woody
+#eliminate Profiley by bringing them to the rotating building of eliminated contestants
+1
+Leafy
+0
+Teardrop
+Flower
+Gelatin
+Lollipop
+
+ep27
+e-Lollipop
+#escape the world's largest oven
+4
+Teardrop
+3
+Leafy
+//broke open oven, but was not first to exit it
+2
+Flower
+//relied on help from Teardrop, but when then betrayed
+1
+Gelatin
+
+ep28
+//announcer returns from BFDI to become host of BFB
+e-Leafy
+#combination of all challenges BFB 1-27
+1
+Flower
+0
+Teardrop
+Gelatin
+
+ep29
+e-Teardrop
+
+ep30
+#viewers vote from final 2
+//most viewers vote by judging the actions and behaviors of the contestants throughout the entirety of BFB (and possibly more), so here the contestants will be scored as if they competed in a challenge
+1
+Flower
+0
+Gelatin

@@ -1,0 +1,640 @@
+//Prerequisites:
+//knowledge of BFDI
+//knowledge of Elo rating system
+
+//EXPLANATION
+//In each challenge, the contestants are ranked based on how well they do relative to each other by being given points. These points may match the points given to them in the actual episodes, but not all, especially in episodes without a point system, since only the relative order of the points matters, ex. 0 vs 1 is the same as 10 vs 100.
+//Only challenges involving non-eliminated characters are included, i.e. the rejoining round in episode 14 involving carrying loaves of bread is not accounted, nor is the tiebreaker between Leafy and Tennis Ball in episode 18 to see which one of them would be eliminated.
+//To update each contestant's Elo rating, each pair of contestants in a given challenge where their given points are not equal pretends to be in a 2-player match. Whoever has the higher number wins, and their rating change is tracked, but their actual ratings do not change until all pairs of contestants have been evaluated. This is the equivalent of all the matches happening all at once.
+//Ties are considered.
+//Contestants with the same point value are grouped together.
+//Contestants on the winning team in challenges between teams are not given any bonus.
+
+//Text format:
+//comment="//"
+//challenge="#[name of challenge]"
+//elimination="e-[contestant]"
+//rejoin="!e-[contestant]"
+//Some character names have been abbreviated. The legend from nickname to real name is at the bottom of this text.
+
+ep1a
+#balance beam
+//contestants who stay on the beam longer are given more points (higher rank)
+0
+//falls by himself
+spongy
+1
+//flower pushes these ppl off at around the same time
+woody
+eraser
+tb
+firey
+gb
+needle
+3
+//ice cube runs into pen, then crashes into the rest and falls off too
+pen
+sb
+bubble
+match
+pencil
+icc
+5
+coiny
+6
+flower
+7
+blocky
+8
+//td pushes rocky off, and almost immediately falls off too
+rocky
+td
+9
+//winners
+leafy
+pin
+
+ep1b
+#breaking the finish line strip
+0
+flower
+blocky
+bubble
+gb
+sb
+rocky
+needle
+td
+tb
+eraser
+match
+woody
+pencil
+firey
+spongy
+3
+//these two, along with Ice Cube, went past the finish line without breaking it
+leafy
+coiny
+5
+//Ice Cube almost broke the finish line strip
+icc
+6
+//pushed away ice cube
+pen
+7
+//winner
+pin
+
+ep2
+e-flower
+
+#obstacle course
+//contestants who fell into the failers' waiting room at around the same area in the course are given the same point value
+0
+//near the beginning of the course
+sb
+blocky
+eraser
+1
+//where the grey pole rises
+pin
+woody
+pen
+2
+//at the seat lift
+icc
+3
+//where the spike closes
+leafy
+tb
+gb
+4
+//at the ski lift
+coiny
+//coiny was thrown out of ski lift by firey, confirmed to be in failer's waiting room in episode 3
+bubble
+pencil
+match
+spongy
+rocky
+7
+//got to the end but did not want to fill water
+firey
+8
+//winners
+td
+needle
+
+ep3
+e-spongy
+
+#test
+0
+//did not submit or got score of 0
+woody
+coiny
+eraser
+tb
+icc
+pencil
+match
+bubble
+sb
+firey
+needle
+td
+rocky
+pen
+blocky
+14
+pin
+15
+td
+19
+gb
+
+ep4
+e-blocky
+
+#cake making
+0
+gb
+13
+sb
+pencil
+bubble
+14
+coiny
+15
+match
+tb
+16
+woody
+17
+pen
+18
+needle
+eraser
+19
+leafy
+firey
+20
+td
+22
+rocky
+23
+pin
+
+#fast chocolate eating
+//most characters did not participate
+1
+pin
+eraser
+firey
+2
+leafy
+rocky
+coiny
+
+#tie-breaker
+1
+sb
+//was the only one to break a tie, and did so before any of his teammates could react, so his teammates are not ranked here
+0
+pin
+eraser
+firey
+pen
+pencil
+match
+bubble
+woody
+
+ep5
+e-woody
+
+//#bridge crossing
+//never completed: cancelled
+
+#tie-breaker
+1
+sb
+//same reasoning as previous tiebreaker
+0
+pin
+eraser
+firey
+pen
+pencil
+match
+bubble
+
+ep6
+e-pin
+
+#power of 3 challenge
+0
+coiny
+needle
+icc
+1
+sb
+gb
+rocky
+2
+bubble
+pencil
+match
+3
+leafy
+tb
+td
+4
+pen
+eraser
+firey
+
+ep7
+e-needle
+
+#puzzle
+1
+coiny
+leafy
+sb
+rocky
+icc
+gb
+tb
+td
+0
+pencil
+match
+eraser
+bubble
+pen
+firey
+
+ep8
+//no e-
+#5-player piggyback
+0
+bubble
+match
+pencil
+pen
+eraser
+1
+gb
+rocky
+leafy
+icc
+firey
+
+ep9
+!e-blocky
+
+#6-leg race
+2
+match
+pencil
+bubble
+eraser
+pen
+1
+tb
+gb
+firey
+coiny
+rocky
+0
+sb
+leafy
+td
+icc
+blocky
+
+ep10
+e-td
+
+//#crying as much as possible: judged as all-way tie
+
+#skiing+handstand
+0
+gb
+coiny
+firey
+rocky
+tb
+1
+leafy
+blocky
+//ice cube was melted away in the first challenge, so they could not participate here
+2
+bubble
+pencil
+match
+pen
+sb
+3
+eraser
+
+ep11
+e-gb
+
+#balloons
+-1
+//fell off staircase; when firey and coiny lose, since tb is already not in the air, his team loses at that moment
+tb
+-0.5
+//is popped when pen tightens balloon around her waist
+bubble
+0
+//taken down by firey
+match
+pen
+1
+//taken down by blocky
+firey
+1.25
+//taken down by sb
+pencil
+1.5
+//taken down by coiny
+icc
+2
+//taken down by blocky
+coiny
+3
+//taken down by blocky
+sb
+//taken down by leafy
+eraser
+//taken down by blocky
+rocky
+4
+leafy
+blocky
+
+ep12
+e-coiny
+//no more teams
+//cumulative points in BFDI will be ignored since it accounts for past elimination votes, win tokens, etc.
+//although there is a distict official ranking in the episode for each contestant, some pairs of them came up at a similar time or only appeared at the top already together, so they are given the same rank
+#climbing up a ladder
+10
+pen
+9
+sb
+blocky
+7
+icc
+leafy
+5
+match
+pencil
+3
+eraser
+firey
+1
+bubble
+0
+rocky
+-1
+tb
+
+ep13
+e-sb
+
+#finding red balls
+//pts are calculated as net # in round
+//finding a maroon ball=10-pt penalty
+//penalty is added with reward points from finding a red ball
+30
+pencil
+20
+tb
+15
+rocky
+12
+firey
+0
+match
+8
+blocky
+6
+leafy
+4
+bubble
+3
+pen
+-8
+icc
+-9
+eraser
+
+ep14
+e-match
+!e-spongy
+
+#hurdle jumping
+//+15 bonus: get metal balls from inside HCl (tb got it)
+//armless ppl get +10 pts for sympathy
+//1 hurdle jumped=+5 pts
+0
+eraser
+5
+pen
+firey
+10
+leafy
+20
+spongy
+15
+pencil
+25
+icc
+45
+tb
+30
+rocky
+25
+bubble
+blocky
+
+ep15
+e-eraser
+//players split into two groups, each w/ diff challenge
+#barf bag
+60
+pencil
+55
+icc
+48
+bubble
+17
+rocky
+37
+blocky
+
+#taco
+7
+firey
+3
+pen
+6
+leafy
+8
+spongy
+5
+tb
+
+ep16
+e-pen
+
+#bowling
+//armless ppl disqualified
+7
+blocky
+0
+bubble
+10
+firey
+3
+leafy
+5
+pencil
+
+ep17
+e-blocky
+#frisbee catching
+0
+icc
+leafy
+1
+tb
+firey
+2
+spongy
+rocky
+3
+pencil
+bubble
+
+ep18
+e-tb
+//david joins BFDI
+#staring contest
+5
+leafy
+icc
+spongy
+firey
+15
+rocky
+pencil
+30
+david
+60
+pencil
+
+ep19
+e-pencil
+#unicycle race
+0
+leafy
+david
+spongy
+icc
+3
+bubble
+2
+rocky
+1
+firey
+
+ep20
+e-david
+#spaceship laser fight
+//icc hit by asteroid and rocky abducted by aliens, so they do not participate in this challenge
+0
+leafy
+1
+spongy
+2
+firey
+3
+bubble
+
+ep21
+e-icc
+!e-flower
+#long jump
+0
+flower
+1
+spongy
+2
+bubble
+3
+firey
+4
+rocky
+5
+leafy
+
+ep22
+e-rocky
+//#escaping volcano: all-way tie
+#beauty contest (biased)
+0
+bubble
+leafy
+spongy
+1
+firey
+flower
+
+ep23
+e-spongy
+#all previous contests combined in order
+1
+bubble
+0
+flower
+leafy
+-1
+//firey gets penalty for dying the most often
+firey
+
+ep24
+e-flower
+
+ep25
+//viewer votes which of the final three win: no challenge
+
+%nicknames
+//includes mapping lower case name to upper case
+bubble Bubble
+pencil Pencil
+match Match
+icc Ice Cube
+leafy Leafy
+gb Golf Ball
+sb Snowball
+tb Tennis Ball
+td Teardrop
+blocky Blocky
+eraser Eraser
+pen Pen
+firey Firey
+rocky Rocky
+spongy Spongy
+david David
+flower Flower
+woody Woody
+pin Pin
+needle Needle
+coiny Coiny
+
